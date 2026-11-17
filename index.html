@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website and student portfolio for Dayshawn Telesford.">
+    <title>Dayshawn Telesford | Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+        <h1>Dayshawn Telesford</h1>
+        <p>Computer Systems Technology Student</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello, my name is Dayshawn Telesford. I am studying Computer Systems Technology at T. A. Marryshow Community College. I am developing my knowledge of computers, programming, networking and web development.</p>
+            <p>Outside of school, I enjoy football and gaming. These interests give me ways to relax, have fun and challenge myself.</p>
+            <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1000&q=85"
+                 alt="Football match taking place on a green field">
+        </section>
+
+        <section id="portfolio">
+            <h2>My Skills and Projects</h2>
+            <p>As a Computer Systems Technology student, I am building practical skills through class activities and projects.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>What it involves</th>
+                        <th>Experience</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Building webpage structure and adding content</td>
+                        <td>Learning and practising</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Styling webpages with colours, spacing and hover effects</td>
+                        <td>Learning and practising</td>
+                    </tr>
+                    <tr>
+                        <td>Programming</td>
+                        <td>Writing code and solving basic problems</td>
+                        <td>Course practice</td>
+                    </tr>
+                    <tr>
+                        <td>Networking</td>
+                        <td>Learning network setup and troubleshooting concepts</td>
+                        <td>Course practice</td>
+                    </tr>
+                    <tr>
+                        <td>Webpage Project</td>
+                        <td>Creating a personal website with navigation, media and a table</td>
+                        <td>In progress</td>
+                    </tr>
+                    <tr>
+                        <td>Programming Project</td>
+                        <td>Practising how to plan and build a small program</td>
+                        <td>In progress</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="interests">
+            <h2>Football and Gaming</h2>
+            <h3>Football</h3>
+            <p>I enjoy football as one of my hobbies. It is an exciting sport that involves teamwork, communication and practice.</p>
+            <h3>Gaming</h3>
+            <p>I also enjoy gaming in my free time. Gaming can be entertaining and can involve strategy, problem-solving and quick decisions.</p>
+        </section>
+
+        <section id="video">
+            <h2>Learning About Web Development</h2>
+            <p>This video is a learning resource related to HTML and web development.</p>
+            <iframe
+                src="https://www.youtube.com/embed/UB1O30fR-EE"
+                title="HTML tutorial video"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Want to get in touch with Dayshawn? Use the link below to send an email.</p>
+            <p><a class="contact-link" href="mailto:dayshawnT6663@tamcc.edu.gd?subject=Website%20Enquiry">Email Dayshawn Telesford</a></p>
+            <form action="mailto:dayshawnT6663@tamcc.edu.gd" method="post" enctype="text/plain">
+                <label for="visitor-name">Your name</label>
+                <input type="text" id="visitor-name" name="Name" placeholder="Enter your name" required>
+
+                <label for="visitor-email">Your email</label>
+                <input type="email" id="visitor-email" name="Email" placeholder="Enter your email" required>
+
+                <label for="visitor-message">Message</label>
+                <textarea id="visitor-message" name="Message" rows="5" placeholder="Write your message here" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <p class="small-note">The form uses the visitor's email application to send a message. For a fully working online form, a form service or server-side code would be needed.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dayshawn Telesford | Personal Website</p>
+    </footer>
+</body>
+</html>
